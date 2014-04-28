@@ -1,0 +1,23 @@
+{
+  "name": "greet",
+  "version": "0.0.0",
+  "description": "A simple and native greeter",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "bin": {
+    "greet": "./bin/greet.js"
+  },
+  "keywords": [
+    "heelo-world"
+  ],
+  "author": "Chao Ruan",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^1.18.2"
+  },
+  "dependencies": {
+    "minimist": "0.0.8"
+  }
+}

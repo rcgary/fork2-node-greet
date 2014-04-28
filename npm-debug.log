@@ -1,0 +1,45 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--no-bin-links',
+1 verbose cli   '/Users/rcgary/Developer/NodeCamps/warmup1/greet/greet-0.0.0.taz' ]
+2 info using npm@1.4.7
+3 info using node@v0.10.26
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json greet@0.0.0 No repository field.
+6 warn package.json greet@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ '/Users/rcgary/Developer/NodeCamps/warmup1/greet/greet-0.0.0.taz',
+8 verbose cache add   null ]
+9 verbose cache add name=undefined spec="/Users/rcgary/Developer/NodeCamps/warmup1/greet/greet-0.0.0.taz" args=["/Users/rcgary/Developer/NodeCamps/warmup1/greet/greet-0.0.0.taz",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: '/Users/rcgary/Developer/NodeCamps/warmup1/greet/greet-0.0.0.taz',
+10 verbose parsed url   path: '/Users/rcgary/Developer/NodeCamps/warmup1/greet/greet-0.0.0.taz',
+10 verbose parsed url   href: '/Users/rcgary/Developer/NodeCamps/warmup1/greet/greet-0.0.0.taz' }
+11 silly lockFile 42138bb3-ps-warmup1-greet-greet-0-0-0-taz /Users/rcgary/Developer/NodeCamps/warmup1/greet/greet-0.0.0.taz
+12 verbose lock /Users/rcgary/Developer/NodeCamps/warmup1/greet/greet-0.0.0.taz /Users/rcgary/.npm/42138bb3-ps-warmup1-greet-greet-0-0-0-taz.lock
+13 silly lockFile 42138bb3-ps-warmup1-greet-greet-0-0-0-taz /Users/rcgary/Developer/NodeCamps/warmup1/greet/greet-0.0.0.taz
+14 silly lockFile 42138bb3-ps-warmup1-greet-greet-0-0-0-taz /Users/rcgary/Developer/NodeCamps/warmup1/greet/greet-0.0.0.taz
+15 error addLocal Could not install /Users/rcgary/Developer/NodeCamps/warmup1/greet/greet-0.0.0.taz
+16 error Error: ENOENT, stat '/Users/rcgary/Developer/NodeCamps/warmup1/greet/greet-0.0.0.taz'
+17 error If you need help, you may report this *entire* log,
+17 error including the npm and node versions, at:
+17 error     <http://github.com/npm/npm/issues>
+18 error System Darwin 13.1.0
+19 error command "node" "/usr/local/bin/npm" "install" "--no-bin-links" "/Users/rcgary/Developer/NodeCamps/warmup1/greet/greet-0.0.0.taz"
+20 error cwd /Users/rcgary/Developer/NodeCamps/warmup1/greet
+21 error node -v v0.10.26
+22 error npm -v 1.4.7
+23 error path /Users/rcgary/Developer/NodeCamps/warmup1/greet/greet-0.0.0.taz
+24 error code ENOENT
+25 error errno 34
+26 verbose exit [ 34, true ]
