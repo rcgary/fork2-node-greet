@@ -1,4 +1,4 @@
-var greet = require("../src/index")
+var greet = require("../src/index.coffee")
   , name = "Chao"
   , drunkSentence = ", you look sexy today";
 

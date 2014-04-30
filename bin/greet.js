@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-
-var command = require("../src/commmand.js");
+require('coffee-script/register')
+var command = require("../lib/commmand");
 command();
